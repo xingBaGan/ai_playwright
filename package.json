@@ -1,0 +1,13 @@
+{
+  "name": "ai_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.8"
+  },
+  "scripts": {
+    "dev": "node ./src/index.js"
+  }
+}
