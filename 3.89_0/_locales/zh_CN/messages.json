@@ -1,0 +1,461 @@
+{
+   "bg_addSuccess": {
+      "message": "添加成功！"
+   },
+   "bg_checkInSuccess": {
+      "message": "签到成功！"
+   },
+   "bg_checkInToGet": {
+      "message": "签到获取福利"
+   },
+   "bg_checkInToGetFree": {
+      "message": "签到获取免费时间"
+   },
+   "bg_deleteSuccess": {
+      "message": "删除成功！"
+   },
+   "bg_domainExist": {
+      "message": "域名已在个人列表！"
+   },
+   "bg_exchangeSuccess": {
+      "message": "兑换成功！"
+   },
+   "bg_expired": {
+      "message": "已到期"
+   },
+   "bg_loadConfFailed": {
+      "message": "获取系统信息失败！"
+   },
+   "bg_loginFailed": {
+      "message": "登入失败!请重试,或联系我们！"
+   },
+   "bg_none": {
+      "message": "无"
+   },
+   "bg_refreshSuccess": {
+      "message": "刷新成功！"
+   },
+   "bg_registerFailed": {
+      "message": "注册失败!请重试,或联系我们！"
+   },
+   "bg_updateSuccess": {
+      "message": "更新成功！"
+   },
+   "fetchDataFailed": {
+      "message": "获取数据失败！请联系管理员！"
+   },
+   "global_appName": {
+      "message": "风车云马"
+   },
+   "global_direction": {
+      "message": "ltr"
+   },
+   "global_float": {
+      "message": "right"
+   },
+   "global_fontFamily": {
+      "message": "auto"
+   },
+   "global_minClose": {
+      "message": "关"
+   },
+   "global_minGlobal": {
+      "message": "全"
+   },
+   "global_minPac": {
+      "message": "科"
+   },
+   "global_textAlign": {
+      "message": "left"
+   },
+   "manifest_appDescription": {
+      "message": "风车云马是一款简单易用的网站加速工具，适用于海淘人员,外贸人员以及海外影视剧爱好者, 加速谷歌搜索, 海外资源查找等。"
+   },
+   "manifest_appName": {
+      "message": "风车云马  - 简单易用的海外网站加速工具"
+   },
+   "manifest_iconTitle": {
+      "message": "[载入中……]"
+   },
+   "nodeTips1": {
+      "message": "若切换节点，请购买套餐！"
+   },
+   "nodeTips2": {
+      "message": "若切换节点，需签到！"
+   },
+   "nodeTips3": {
+      "message": "若切换节点，请切换手动选择！"
+   },
+   "nodeTips4": {
+      "message": "若切换节点，请购买套餐！"
+   },
+   "nodeTips5": {
+      "message": "若切换节点，需签到！"
+   },
+   "nodeTips6": {
+      "message": "线路正在维护中！"
+   },
+   "proxyListTips1": {
+      "message": "在智能模式下，只有个人列表里的域名才加速。"
+   },
+   "pu_CDomainNotinPL": {
+      "message": "该网站目前未通过加速通道，点击下方+号添加到域名列表走加速通道"
+   },
+   "pu_FreeDate": {
+      "message": "免费到期"
+   },
+   "pu_VIPDate": {
+      "message": "VIP到期"
+   },
+   "pu_aModel": {
+      "message": "科学"
+   },
+   "pu_aSelect": {
+      "message": "自动选择"
+   },
+   "pu_accessWebsite": {
+      "message": "访问官网"
+   },
+   "pu_account": {
+      "message": "账号"
+   },
+   "pu_add2PL": {
+      "message": "添加当前域名到个人列表"
+   },
+   "pu_addAlert": {
+      "message": "注意：请勿添加国内网站，会使访问速度变慢"
+   },
+   "pu_addCDomains2PL": {
+      "message": "添加当前域名到个人列表"
+   },
+   "pu_addSDomains2PL": {
+      "message": "添加选中域名到个人列表进行加速"
+   },
+   "pu_addSelectDomain": {
+      "message": "请选择需要添加的域名！"
+   },
+   "pu_addTrust": {
+      "message": "加入信任"
+   },
+   "pu_authCode": {
+      "message": "图中验证码"
+   },
+   "pu_authing": {
+      "message": "正在验证..."
+   },
+   "pu_autoDesc": {
+      "message": "科学模式：只有列表里的域名会加速"
+   },
+   "pu_autoNode": {
+      "message": "自动"
+   },
+   "pu_autoTips": {
+      "message": "智能模式：当前网站正在加速！"
+   },
+   "pu_back": {
+      "message": "返回"
+   },
+   "pu_backLogin": {
+      "message": "返回登入"
+   },
+   "pu_buyGoods": {
+      "message": "购买套餐"
+   },
+   "pu_cModel": {
+      "message": "关闭"
+   },
+   "pu_checkeIn": {
+      "message": "签到"
+   },
+   "pu_checked": {
+      "message": "已签"
+   },
+   "pu_checkin2Free": {
+      "message": "请签到获取免费时间来使用免费节点！"
+   },
+   "pu_clickSwitch": {
+      "message": "(点击按钮切换)"
+   },
+   "pu_close": {
+      "message": "关闭"
+   },
+   "pu_closeDesc": {
+      "message": "关闭模式：访问所有域名都不会加速"
+   },
+   "pu_closeTips": {
+      "message": "插件关闭：当前网站未走加速通道！"
+   },
+   "pu_closed": {
+      "message": "已关闭"
+   },
+   "pu_confirmPwd": {
+      "message": "确认密码"
+   },
+   "pu_conflictAlert": {
+      "message": "如果风车云马无法正常使用，请关闭冲突插件！"
+   },
+   "pu_conflictTips": {
+      "message": "以下插件可能会与风车云马产生冲突，可能会影响正常使用，建议将它们关闭。如果您确认对风车云马无影响，可以信任它们，之后便不再提示。"
+   },
+   "pu_contactUS": {
+      "message": "如有问题，请联系我们：windmillvpn@gmail.com"
+   },
+   "pu_currentModel": {
+      "message": "选择节点模式："
+   },
+   "pu_day": {
+      "message": "天"
+   },
+   "pu_domainInPL": {
+      "message": "当前域名已在系统列表或个人列表里！"
+   },
+   "pu_emptyPassword": {
+      "message": "请输入密码！"
+   },
+   "pu_exchange": {
+      "message": "兑换"
+   },
+   "pu_exchange1": {
+      "message": "(可兑换"
+   },
+   "pu_exchange2": {
+      "message": "天VIP)"
+   },
+   "pu_exchangeRule1": {
+      "message": "输入天数("
+   },
+   "pu_exchangeRule2": {
+      "message": "积分=1天VIP)"
+   },
+   "pu_exitAccount": {
+      "message": "退出账号"
+   },
+   "pu_forgetPwd": {
+      "message": "忘记密码 ?"
+   },
+   "pu_gModel": {
+      "message": "全局"
+   },
+   "pu_globalDesc": {
+      "message": "全局模式：访问所有的域名都会加速"
+   },
+   "pu_globalTips": {
+      "message": "全局模式：当前网站正在加速！"
+   },
+   "pu_helpPage": {
+      "message": "帮助页面"
+   },
+   "pu_hour": {
+      "message": "小时"
+   },
+   "pu_inputAuthCode": {
+      "message": "请输入验证码！"
+   },
+   "pu_inputExechangeDays": {
+      "message": "请输入兑换天数！"
+   },
+   "pu_invaildEmail": {
+      "message": "请输入正确的邮箱！"
+   },
+   "pu_invalidDays": {
+      "message": "兑换天数范围在1-100之间！"
+   },
+   "pu_invalidDomain": {
+      "message": "请输入正确域名！"
+   },
+   "pu_inviteCode": {
+      "message": "邀请码(可不填)"
+   },
+   "pu_leftPoints": {
+      "message": "可用积分"
+   },
+   "pu_lessPoints": {
+      "message": "您的积分不足！"
+   },
+   "pu_loading": {
+      "message": "正在登入..."
+   },
+   "pu_login": {
+      "message": "登入"
+   },
+   "pu_logout": {
+      "message": "退出登入"
+   },
+   "pu_mSelect": {
+      "message": "手动选择"
+   },
+   "pu_manageConflict": {
+      "message": "冲突插件管理"
+   },
+   "pu_manageConflictPart1": {
+      "message": "检测到冲突插件，请进入"
+   },
+   "pu_manageConflictPart2": {
+      "message": "进行设置！"
+   },
+   "pu_manageDomain": {
+      "message": "域名管理"
+   },
+   "pu_manualNode": {
+      "message": "手动"
+   },
+   "pu_min": {
+      "message": "分钟"
+   },
+   "pu_model": {
+      "message": "运行模式|节点"
+   },
+   "pu_modifyPwd": {
+      "message": "修改密码"
+   },
+   "pu_myInvite": {
+      "message": "我的邀请码"
+   },
+   "pu_myPoints": {
+      "message": "我的积分"
+   },
+   "pu_noDomain": {
+      "message": "没有域名！"
+   },
+   "pu_noFreeTime": {
+      "message": "您的免费时间已用完，请明天再来签到吧！"
+   },
+   "pu_noNeedExchange": {
+      "message": "试运营期间无需兑换！"
+   },
+   "pu_noNodes": {
+      "message": "没有节点！"
+   },
+   "pu_nodeChoose": {
+      "message": "节点选择"
+   },
+   "pu_nodeCrowd": {
+      "message": "拥挤"
+   },
+   "pu_nodeFull": {
+      "message": "爆满"
+   },
+   "pu_nodeIdle": {
+      "message": "空闲"
+   },
+   "pu_nodeUnknown": {
+      "message": "未知"
+   },
+   "pu_notReceiveEmail": {
+      "message": "没收到邮件？"
+   },
+   "pu_notReceiveEmailTips": {
+      "message": "某些邮箱（hotmail,outlook,cloud）可能收不到邮件。若没收到激活邮件，请发邮件到windmillvpn@gmail.com协助激活。"
+   },
+   "pu_oneKeyClose": {
+      "message": "一键关闭"
+   },
+   "pu_onlineCustomer": {
+      "message": "在线客服"
+   },
+   "pu_opened": {
+      "message": "已开启"
+   },
+   "pu_password": {
+      "message": "密码"
+   },
+   "pu_personInfo": {
+      "message": "个人信息"
+   },
+   "pu_personPage": {
+      "message": "个人主页"
+   },
+   "pu_pruchase": {
+      "message": "购买"
+   },
+   "pu_pwdLength": {
+      "message": "密码长度不得小于6！"
+   },
+   "pu_pwdMismatch": {
+      "message": "两次输入密码不一致！"
+   },
+   "pu_queryDomain": {
+      "message": "查找、添加个人域名"
+   },
+   "pu_refresh": {
+      "message": "刷新"
+   },
+   "pu_refreshInfo": {
+      "message": "刷新用户信息"
+   },
+   "pu_register": {
+      "message": "注册账号"
+   },
+   "pu_registerFailed": {
+      "message": "注册失败，请联系我们！"
+   },
+   "pu_safeAuth": {
+      "message": "安全验证"
+   },
+   "pu_saftAuthAlert": {
+      "message": "防御已开启，请输入图片中的验证码（如果是表达式，请输入表达式结果）完成验证！（点图片刷新验证码）"
+   },
+   "pu_selectNode": {
+      "message": "请选择节点！"
+   },
+   "pu_selectNodeTips": {
+      "message": "请按照自己的宽带类型选择合适的节点。信号和拥挤程度仅供参考，以实际体验为准。"
+   },
+   "pu_status1_desc": {
+      "message": "注意:请勿与其他插件同时使用！如果有，请在扩展管理页面关掉！有问题请咨询：windmillvpn@gmail.com"
+   },
+   "pu_status1_msg": {
+      "message": "正在登入..."
+   },
+   "pu_status3_desc": {
+      "message": "注意:请勿与其他加速插件同时使用！如果有，请在扩展管理页面关掉！有问题请咨询：windmillvpn@gmail.com"
+   },
+   "pu_status3_msg": {
+      "message": "插件正在启动..."
+   },
+   "pu_status4_desc": {
+      "message": "注意:请勿与其他加速插件同时使用！如果有，请在扩展管理页面关掉！有问题请咨询：windmillvpn@gmail.com"
+   },
+   "pu_status4_msg": {
+      "message": "正在连接服务器..."
+   },
+   "pu_status5_desc": {
+      "message": "更新"
+   },
+   "pu_status5_msg": {
+      "message": "当前版本需要"
+   },
+   "pu_status6_desc": {
+      "message": "重登"
+   },
+   "pu_status6_msg": {
+      "message": "登入超时,请"
+   },
+   "pu_status7_desc": {
+      "message": "退出重登"
+   },
+   "pu_status7_msg": {
+      "message": "账号被挤出,请"
+   },
+   "pu_status8_desc": {
+      "message": "退出重登"
+   },
+   "pu_status8_msg": {
+      "message": ",请"
+   },
+   "pu_submitAuth": {
+      "message": "提交验证"
+   },
+   "pu_systemDomain": {
+      "message": "系统域名状态"
+   },
+   "pu_uncatchDomain": {
+      "message": "疑似无法访问的域名："
+   },
+   "pu_untrust": {
+      "message": "取消信任"
+   },
+   "pu_website": {
+      "message": "官方网站"
+   }
+}

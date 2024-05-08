@@ -1,0 +1,461 @@
+{
+   "bg_addSuccess": {
+      "message": "Add successfully!"
+   },
+   "bg_checkInSuccess": {
+      "message": "Check in successfully!"
+   },
+   "bg_checkInToGet": {
+      "message": "Get benefits"
+   },
+   "bg_checkInToGetFree": {
+      "message": "Check in for free time"
+   },
+   "bg_deleteSuccess": {
+      "message": "Delete successful!"
+   },
+   "bg_domainExist": {
+      "message": "Domain is already in the proxy list!"
+   },
+   "bg_exchangeSuccess": {
+      "message": "Successful exchange!"
+   },
+   "bg_expired": {
+      "message": "Expired"
+   },
+   "bg_loadConfFailed": {
+      "message": "Failed to get system information!"
+   },
+   "bg_loginFailed": {
+      "message": "Login failed! Please try again or contact us!"
+   },
+   "bg_none": {
+      "message": "None"
+   },
+   "bg_refreshSuccess": {
+      "message": "Refresh successfully!"
+   },
+   "bg_registerFailed": {
+      "message": "Registration failed! Please try again or contact us!"
+   },
+   "bg_updateSuccess": {
+      "message": "Update successful!"
+   },
+   "fetchDataFailed": {
+      "message": "Fetch data failed, please cantract us!"
+   },
+   "global_appName": {
+      "message": "Windmill"
+   },
+   "global_direction": {
+      "message": "ltr"
+   },
+   "global_float": {
+      "message": "right"
+   },
+   "global_fontFamily": {
+      "message": "auto"
+   },
+   "global_minClose": {
+      "message": "C"
+   },
+   "global_minGlobal": {
+      "message": "G"
+   },
+   "global_minPac": {
+      "message": "P"
+   },
+   "global_textAlign": {
+      "message": "left"
+   },
+   "manifest_appDescription": {
+      "message": "Windmill is a simple and easy to use overseas website accelerating tool, help users quickly open the website."
+   },
+   "manifest_appName": {
+      "message": "Windmill - Overseas website accelerating tool"
+   },
+   "manifest_iconTitle": {
+      "message": "[loading...]"
+   },
+   "nodeTips1": {
+      "message": "Purchase and switch model to choose node!"
+   },
+   "nodeTips2": {
+      "message": "Checkin and switch model to choose node!"
+   },
+   "nodeTips3": {
+      "message": "Switch manual selection model to choose node!"
+   },
+   "nodeTips4": {
+      "message": "Purchase to switch node!"
+   },
+   "nodeTips5": {
+      "message": "Checkin to switch node!"
+   },
+   "nodeTips6": {
+      "message": "The proxy node is in maintaining!"
+   },
+   "proxyListTips1": {
+      "message": "The domains only in proxy list go through proxy nodes under the PAC model"
+   },
+   "pu_CDomainNotinPL": {
+      "message": "The site is not through the accelerated channel, click + to add into list"
+   },
+   "pu_FreeDate": {
+      "message": "Free due date"
+   },
+   "pu_VIPDate": {
+      "message": "VIP due date"
+   },
+   "pu_aModel": {
+      "message": "PAC"
+   },
+   "pu_aSelect": {
+      "message": "Automatic"
+   },
+   "pu_accessWebsite": {
+      "message": "Visit the website"
+   },
+   "pu_account": {
+      "message": "Account"
+   },
+   "pu_add2PL": {
+      "message": "Add current domain to proxy list"
+   },
+   "pu_addAlert": {
+      "message": "Note: Please do not add domestic website, it will slow down the access speed"
+   },
+   "pu_addCDomains2PL": {
+      "message": "Add the current domain to proxy list"
+   },
+   "pu_addSDomains2PL": {
+      "message": "Add selected domain to proxy list for acceleration"
+   },
+   "pu_addSelectDomain": {
+      "message": "Please select the domain you want to add!"
+   },
+   "pu_addTrust": {
+      "message": "Trust"
+   },
+   "pu_authCode": {
+      "message": "Captcha in the figure"
+   },
+   "pu_authing": {
+      "message": "Verifying..."
+   },
+   "pu_autoDesc": {
+      "message": "PAC mode: only the domains in the list will be represented"
+   },
+   "pu_autoNode": {
+      "message": "Automatic"
+   },
+   "pu_autoTips": {
+      "message": "PAC mode: The current site is accelerating!"
+   },
+   "pu_back": {
+      "message": "Return"
+   },
+   "pu_backLogin": {
+      "message": "Return to login"
+   },
+   "pu_buyGoods": {
+      "message": "Purchase plan"
+   },
+   "pu_cModel": {
+      "message": "Close"
+   },
+   "pu_checkeIn": {
+      "message": "Check in"
+   },
+   "pu_checked": {
+      "message": "Checked"
+   },
+   "pu_checkin2Free": {
+      "message": "Please check in for free time to use free node!"
+   },
+   "pu_clickSwitch": {
+      "message": "(Click to switch)"
+   },
+   "pu_close": {
+      "message": "Close"
+   },
+   "pu_closeDesc": {
+      "message": "Close mode: Access to all domain names is unmediated"
+   },
+   "pu_closeTips": {
+      "message": "Extension close: current site does not take the acceleration channel!"
+   },
+   "pu_closed": {
+      "message": "Closed"
+   },
+   "pu_confirmPwd": {
+      "message": "Confirm password"
+   },
+   "pu_conflictAlert": {
+      "message": "If the windmill is not working properly, please close the conflict extensions!"
+   },
+   "pu_conflictTips": {
+      "message": "The following extensions may conflict with windmill. It is recommended to close them. If you are sure that they have no effect on windmills, you can trust them."
+   },
+   "pu_contactUS": {
+      "message": "If you have any questions, please contact us: windmillvpn@gmail.com"
+   },
+   "pu_currentModel": {
+      "message": "Node mode: "
+   },
+   "pu_day": {
+      "message": "Days"
+   },
+   "pu_domainInPL": {
+      "message": "The current domain is in the system list or proxy list!"
+   },
+   "pu_emptyPassword": {
+      "message": "Please enter your password!"
+   },
+   "pu_exchange": {
+      "message": "exchange"
+   },
+   "pu_exchange1": {
+      "message": "( "
+   },
+   "pu_exchange2": {
+      "message": " Days of VIP)"
+   },
+   "pu_exchangeRule": {
+      "message": "Enter days (#1# points =1 day VIP)"
+   },
+   "pu_exitAccount": {
+      "message": "Logout"
+   },
+   "pu_forgetPwd": {
+      "message": "Forget your password?"
+   },
+   "pu_gModel": {
+      "message": "Global"
+   },
+   "pu_globalDesc": {
+      "message": "Global mode: All domain names are accessed via proxy"
+   },
+   "pu_globalTips": {
+      "message": "Global mode: the current site is accelerating!"
+   },
+   "pu_helpPage": {
+      "message": "Help page"
+   },
+   "pu_hour": {
+      "message": "Hours"
+   },
+   "pu_inputAuthCode": {
+      "message": "Please enter verification code!"
+   },
+   "pu_inputExechangeDays": {
+      "message": "Please enter the days of exchange!"
+   },
+   "pu_invaildEmail": {
+      "message": "Please enter the correct email!"
+   },
+   "pu_invalidDays": {
+      "message": "The exchange days range is between 1-100!"
+   },
+   "pu_invalidDomain": {
+      "message": "Please enter the correct domain!"
+   },
+   "pu_inviteCode": {
+      "message": "Invitation Code (optional)"
+   },
+   "pu_leftPoints": {
+      "message": "Points"
+   },
+   "pu_lessPoints": {
+      "message": "Your points is not enough!"
+   },
+   "pu_loading": {
+      "message": "Logging in..."
+   },
+   "pu_login": {
+      "message": "Login"
+   },
+   "pu_logout": {
+      "message": "Logout"
+   },
+   "pu_mSelect": {
+      "message": "Manually"
+   },
+   "pu_manageConflict": {
+      "message": "Conflict extensioin management"
+   },
+   "pu_manageConflictPart1": {
+      "message": "Collision extensioin detected, please enter"
+   },
+   "pu_manageConflictPart2": {
+      "message": "Setup!"
+   },
+   "pu_manageDomain": {
+      "message": "Domain"
+   },
+   "pu_manualNode": {
+      "message": "Manual"
+   },
+   "pu_min": {
+      "message": "Minutes"
+   },
+   "pu_model": {
+      "message": "Run mode | node"
+   },
+   "pu_modifyPwd": {
+      "message": "Change the password"
+   },
+   "pu_myInvite": {
+      "message": "My invitation code"
+   },
+   "pu_myPoints": {
+      "message": "My points"
+   },
+   "pu_noDomain": {
+      "message": "No domain name!"
+   },
+   "pu_noFreeTime": {
+      "message": "Your free time has been used up, please come to sign in tomorrow!"
+   },
+   "pu_noNeedExchange": {
+      "message": "No exchange during the trial operation!"
+   },
+   "pu_noNodes": {
+      "message": "No nodes!"
+   },
+   "pu_nodeChoose": {
+      "message": "Node"
+   },
+   "pu_nodeCrowd": {
+      "message": "Crowded"
+   },
+   "pu_nodeFull": {
+      "message": "Full"
+   },
+   "pu_nodeIdle": {
+      "message": "Idle"
+   },
+   "pu_nodeUnknown": {
+      "message": "Unknown"
+   },
+   "pu_notReceiveEmail": {
+      "message": "Not receive email?"
+   },
+   "pu_notReceiveEmailTips": {
+      "message": "Some mailboxes (Hotmail, Outlook, Cloud) may not receive mail. If you do not receive email, please email to windmillvpn@gmail.com to assist with activation."
+   },
+   "pu_oneKeyClose": {
+      "message": "Turn off all"
+   },
+   "pu_onlineCustomer": {
+      "message": "Online customer service"
+   },
+   "pu_opened": {
+      "message": "Opened"
+   },
+   "pu_password": {
+      "message": "Password"
+   },
+   "pu_personInfo": {
+      "message": "Personal"
+   },
+   "pu_personPage": {
+      "message": "HomePage"
+   },
+   "pu_pruchase": {
+      "message": "Buy"
+   },
+   "pu_pwdLength": {
+      "message": "Password length must not be less than 6!"
+   },
+   "pu_pwdMismatch": {
+      "message": "The password is inconsistent!"
+   },
+   "pu_queryDomain": {
+      "message": "Find and add domain"
+   },
+   "pu_refresh": {
+      "message": "Refresh"
+   },
+   "pu_refreshInfo": {
+      "message": "Refresh"
+   },
+   "pu_reg": {
+      "message": "Register"
+   },
+   "pu_register": {
+      "message": "Register account"
+   },
+   "pu_registerFailed": {
+      "message": "Registration failed, please contact us!"
+   },
+   "pu_safeAuth": {
+      "message": "Security verification"
+   },
+   "pu_saftAuthAlert": {
+      "message": "Defense opened, please enter the verification in the picture to complete the authentication! (Click image refresh verification code)"
+   },
+   "pu_selectNode": {
+      "message": "Please select a node!"
+   },
+   "pu_selectNodeTips": {
+      "message": "Please select the appropriate node according to your broadband type. The signal is reference only,not the actual experience."
+   },
+   "pu_status1_desc": {
+      "message": "Note: Do not use with other accelerating extensions!\u003Cbr/>if there is, please close in the extension management page!Our email: windmillvpn@gmail.com"
+   },
+   "pu_status1_msg": {
+      "message": "Logging in..."
+   },
+   "pu_status3_desc": {
+      "message": "Note: Do not use with other accelerating extensions!\u003Cbr/>if there is, please close in the extension management page!Our email: windmillvpn@gmail.com"
+   },
+   "pu_status3_msg": {
+      "message": "The extension is loading..."
+   },
+   "pu_status4_desc": {
+      "message": "Note: Do not use with other accelerating extensions!\u003Cbr/>if there is, please close in the extension management page!Our email: windmillvpn@gmail.com"
+   },
+   "pu_status4_msg": {
+      "message": "Connecting to server..."
+   },
+   "pu_status5_desc": {
+      "message": "update"
+   },
+   "pu_status5_msg": {
+      "message": "Current version requires"
+   },
+   "pu_status6_desc": {
+      "message": "Relogin\u003C/b> or \u003Cb class='logout'>logout"
+   },
+   "pu_status6_msg": {
+      "message": "Login timeout, please"
+   },
+   "pu_status7_desc": {
+      "message": "Relogin"
+   },
+   "pu_status7_msg": {
+      "message": "Account has been squeezed out, please"
+   },
+   "pu_status8_desc": {
+      "message": "Relogin"
+   },
+   "pu_status8_msg": {
+      "message": "###,Please"
+   },
+   "pu_submitAuth": {
+      "message": "Submit the validation"
+   },
+   "pu_systemDomain": {
+      "message": "System domain status"
+   },
+   "pu_uncatchDomain": {
+      "message": "Suspected unreachable domains:"
+   },
+   "pu_untrust": {
+      "message": "untrust"
+   },
+   "pu_website": {
+      "message": "The official website"
+   }
+}

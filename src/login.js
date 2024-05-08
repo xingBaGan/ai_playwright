@@ -11,8 +11,6 @@ async function login(){
     ]
   });
   const pages = await browserContext.pages();
-  // console.log('pages', pages[0]);
-  // const page = await browserContext.newPage();
   return pages[0];
 }
 
