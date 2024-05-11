@@ -1,17 +1,21 @@
 const { login } = require('./login');
 const fs = require('fs');
+const { deliverToXHS } = require('./xiaohongshu');
+const {
+  maxTimeout,
+} = require('./variable');
+
 // 读取文件名字参数
 const arggs = process.argv.slice(2);
-const maxTimeout = 60000 * 3;
 const topicName = arggs[0] || '怎么快速入睡';
 const bid = '6cbrf1k7c4g0';
 let contentURL = `https://www.coze.com/store/bot/7344666525904764933?bid=${bid}&from=bots_card&panel=1`;
 (async () => {
   const page = await login();
-  await page.goto(contentURL, {
-    timeout: maxTimeout,
-    waitUntil: 'load',
-  });
+  // await page.goto(contentURL, {
+  //   timeout: maxTimeout,
+  //   waitUntil: 'load',
+  // });
   // const answer = await sendMsg(page, topicName);
   deliverToXHS(page);
 })();
@@ -35,15 +39,3 @@ async function addNewChat(page) {
 }
 
 // 打开小红书
-const platformUrl = "https://creator.xiaohongshu.com/creator/home?source=official";
-
-async function deliverToXHS(page) {
-  const context = await page.context();
-  const _page = await context.newPage();
-  await _page.goto(platformUrl, {
-    timeout: maxTimeout,
-    waitUntil: 'load',
-  });
-  await page.pause();
-  return _page;
-}
