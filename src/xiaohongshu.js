@@ -26,15 +26,15 @@ async function deliverToXHS(page, text, imagePath, title) {
 
 async function uploadContent(page, content, imagePath, title) {
   const tab = await page.locator('div').filter({ hasText: /^上传图文$/ });
+  await page.pause();
   await tab.click();
   const fileInput = await page.locator('.upload-input').last();
   // 读取文件
   await fileInput.setInputFiles(`./${imagePath}`);
   const textArea = await page.locator('#post-textarea');
   await textArea.fill(content);
-  const titleInput = await page.locator('.c-input');
+  const titleInput = await page.locator('.c-input input');
   await titleInput.fill(title);
-  await page.pause();
 }
 
 async function loginToXHSIfNot(page, phone) {
