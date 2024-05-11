@@ -4,7 +4,7 @@ const {
   maxTimeout,
 } = require('./variable');
 
-async function deliverToXHS(page) {
+async function deliverToXHS(page, text, imagePath, title) {
   const context = await page.context();
   const _page = await context.newPage();
   await _page.goto(platformUrl, {
@@ -19,16 +19,21 @@ async function deliverToXHS(page) {
     await loginToXHSIfNot(_page, phoneNumber);
   } else {
     await subscribeBtn.click();
-    uploadContent(_page,'测试内容' )
+    uploadContent(_page, text, imagePath, title)
   }
   return _page;
 }
 
-async function uploadContent(page, content) {
+async function uploadContent(page, content, imagePath, title) {
   const tab = await page.locator('div').filter({ hasText: /^上传图文$/ });
   await tab.click();
-  const fileInput = await page.locator('.upload-input');
-  await fileInput.setInputFiles([]);
+  const fileInput = await page.locator('.upload-input').last();
+  // 读取文件
+  await fileInput.setInputFiles(`./${imagePath}`);
+  const textArea = await page.locator('#post-textarea');
+  await textArea.fill(content);
+  const titleInput = await page.locator('.c-input');
+  await titleInput.fill(title);
   await page.pause();
 }
 

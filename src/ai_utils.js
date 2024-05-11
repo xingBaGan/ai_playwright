@@ -5,17 +5,24 @@ const {
 const https = require('https');
 const fs = require('fs');
 
-async function downloadImage(url, msg) {
+function requestImage(url, filename) {
   const imageUrl = url; // 替换为你的图片 URL
-  const filename = `${imageBasePath}/${msg||'last'}.jpg`; // 你想要保存的文件名
-
-  https.get(imageUrl, (response) => {
-    response.pipe(fs.createWriteStream(filename)).on('finish', () => {
-      console.log('图片下载完成', filename);
+  return new Promise((resolve, reject)=>{
+    https.get(imageUrl, (response) => {
+      response.pipe(fs.createWriteStream(filename)).on('finish', () => {
+        console.log('图片下载完成', filename);
+        resolve(filename);
+      });
+    }).on('error', (err) => {
+      console.error('下载图片时出错:', err);
+      reject(err);
     });
-  }).on('error', (err) => {
-    console.error('下载图片时出错:', err);
-  });
+  })
+}
+async function downloadImage(url, msg) {
+  const filename = `${imageBasePath}/${msg || 'last'}.jpg`; // 你想要保存的文件名
+   await requestImage(url, filename);
+  return filename;
 }
 
 async function sendMsg(page, msg, isImage) {
@@ -39,14 +46,15 @@ async function sendMsg(page, msg, isImage) {
     const image = await answerContainer.locator('img').last();
     // 获取image 的url
     const src = await image.getAttribute('src');
-    await downloadImage(src, msg);
+    const filename = await downloadImage(src, msg);
+    return filename;
   } else {
-    await answerContainer.innerText();
+    const answer = await answerContainer.innerText();
     return answer;
   }
 }
 async function getMsg(page, isImage) {
-  await sendMsg(page, '', isImage);
+  return await sendMsg(page, '', isImage);
 }
 
 async function addNewChat(page) {

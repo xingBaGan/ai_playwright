@@ -7,6 +7,7 @@ const {
 const {
   sendMsg,
   addNewChat,
+  getMsg,
 } = require('./ai_utils');
 
 const { getImage } = require('./ai_image');
@@ -23,8 +24,11 @@ let contentURL = `https://www.coze.com/store/bot/7344666525904764933?bid=${bid}&
     timeout: maxTimeout,
     waitUntil: 'load',
   });
-  // const answer = await sendMsg(page, topicName);
-  // await deliverToXHS(page);
-  await getImage(page, imagePrompt);
+  // const answer = await getMsg(page);
+  // console.log('answer', answer);
+  // const path = await getImage(page, imagePrompt);
+  const path = 'images/画一个穿巫女服的猫娘.jpg';
+  const answer = 'text';
+  await deliverToXHS(page, answer, path, topicName);
 })();
 

@@ -10,7 +10,7 @@ async function getImage(page, promptText){
     timeout: maxTimeout,
     waitUntil: 'load',
   });
-  await getMsg(page, promptText, true);
+  return await getMsg(page, promptText, true);
 }
 
 module.exports = { getImage };
