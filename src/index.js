@@ -20,6 +20,7 @@ const bid = '6cbrf1k7c4g0';
 let contentURL = `https://www.coze.com/store/bot/7344666525904764933?bid=${bid}&from=bots_card&panel=1`;
 (async () => {
   const page = await login();
+  await page.waitForTimeout(3000);
   await page.goto(contentURL, {
     timeout: maxTimeout,
     waitUntil: 'load',
