@@ -13,5 +13,16 @@ async function getImage(page, promptText){
   return await getMsg(page, promptText, true);
 }
 
-module.exports = { getImage };
+
+
+async function getImageByPrompt(page, promptText){
+  await page.goto(imageUrl, {
+    timeout: maxTimeout,
+    waitUntil: 'load',
+  });
+  return await sendMsg(page, promptText, true);
+}
+
+
+module.exports = { getImage,  getImageByPrompt};
 

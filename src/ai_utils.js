@@ -42,7 +42,6 @@ async function sendMsg(page, msg, isImage) {
   const msgs = await page.locator('.chat-uikit-message-box-container__message').all();
   const answerContainer = await msgs[0].locator('.chat-uikit-message-box-inner');
   if (isImage) {
-    await page.pause();
     const image = await answerContainer.locator('img').last();
     // 获取image 的url
     const src = await image.getAttribute('src');

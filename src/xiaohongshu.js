@@ -33,7 +33,7 @@ async function uploadContent(page, content, imagePath, title) {
   await fileInput.setInputFiles(`./${imagePath}`);
   const textArea = await page.locator('#post-textarea');
   await textArea.fill(content);
-  const titleInput = await page.locator('.c-input input');
+  const titleInput = await page.locator('.titleInput .el-input__inner[type=text]');
   await titleInput.fill(title);
 }
 
